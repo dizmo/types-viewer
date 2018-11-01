@@ -1,0 +1,49 @@
+{
+  "author": {
+    "name": "Hasan Karahan",
+    "email": "hasan.karahan@blackhan.com",
+    "url": "https://github.com/hsk81"
+  },
+  "dependencies": {
+    "@dizmo/types-bundle": "^1.0.2",
+    "@dizmo/types-dizmo": "^1.0.2",
+    "@dizmo/types-uuid": "^1.0.2"
+  },
+  "description": "Viewer type definitions",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4",
+    "yargs": "^12.0.2"
+  },
+  "files": [
+    "dist/lib"
+  ],
+  "keywords": [
+    "library",
+    "module"
+  ],
+  "license": "ISC",
+  "main": "dist/lib/index.js",
+  "name": "@dizmo/types-viewer",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dizmo/types-viewer.git"
+  },
+  "scripts": {
+    "build": "node ./cli/run-build.js",
+    "cover": "node ./cli/run-test.js --cover",
+    "lint": "node ./cli/run-lint.js",
+    "test": "node ./cli/run-test.js"
+  },
+  "types": "dist/lib/index.d.ts",
+  "version": "0.0.0"
+}
