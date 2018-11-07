@@ -15,8 +15,11 @@ npm install @dizmo/types-viewer --save
 let lib = require('@dizmo/types-viewer');
 ```
 ### Examples
-```javascript
-...
+```typescript
+import Viewer from '@dizmo/types-viewer'
+```
+```typescript
+declare const viewer: Viewer;
 ```
 ## Development
 ### Build
