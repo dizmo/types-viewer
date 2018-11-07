@@ -8,7 +8,7 @@ describe("Viewer", () => {
     it("should not exist", () => {
         expect(typeof viewer).to.eq("undefined");
     });
-    it("should be declareable", () => {
-        expect(typeof viewer).to.eq("undefined");
+    it("should not be referenceable", () => {
+        expect(() => viewer).to.throw(ReferenceError);
     });
 });

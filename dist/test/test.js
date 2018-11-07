@@ -9,8 +9,10 @@ describe("Viewer", function () {
     it("should not exist", function () {
         chai_1.expect(typeof viewer === "undefined" ? "undefined" : _typeof(viewer)).to.eq("undefined");
     });
-    it("should be declareable", function () {
-        chai_1.expect(typeof viewer === "undefined" ? "undefined" : _typeof(viewer)).to.eq("undefined");
+    it("should not be referenceable", function () {
+        chai_1.expect(function () {
+            return viewer;
+        }).to.throw(ReferenceError);
     });
 });
 //# sourceMappingURL=test.js.map
