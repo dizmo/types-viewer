@@ -5,9 +5,9 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {
-    "@dizmo/types-bundle": "^1.0.2",
-    "@dizmo/types-dizmo": "^1.0.2",
-    "@dizmo/types-uuid": "^1.0.2"
+    "@dizmo/types-bundle": "^1.0.5",
+    "@dizmo/types-dizmo": "^1.0.5",
+    "@dizmo/types-uuid": "^1.0.3"
   },
   "description": "Viewer type definitions",
   "devDependencies": {
@@ -20,9 +20,9 @@
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.4",
-    "yargs": "^12.0.2"
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2",
+    "yargs": "^12.0.5"
   },
   "files": [
     "dist/lib"
